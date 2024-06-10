@@ -1,0 +1,74 @@
+local Dropdown = Tabs.Main:AddDropdown("Dropdown", {
+    Title = "Dropdown",
+    Values = {"Reset", "Black", "White", "Purple", "Cyan", "Red", "Yellow"},
+    Multi = false,
+    Default = 1,
+})
+
+Dropdown:SetValue("Reset")
+
+ Dropdown:OnChanged(function(bool)
+    if bool == "Reset" then do
+			game.Workspace.WaterLevel.BrickColor = BrickColor.new("Bright blue")
+			game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("Bright blue")
+			local Children = game.Workspace.TsunamiWave:GetChildren()
+			for a = 1, #Children do
+				Children[a].BrickColor = BrickColor.new("Bright blue")
+			end
+		end
+	end
+    if bool == "Black" then do
+			game.Workspace.WaterLevel.BrickColor = BrickColor.new("Black")
+			game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("Black")
+			local Children = game.Workspace.TsunamiWave:GetChildren()
+			for a = 1, #Children do
+				Children[a].BrickColor = BrickColor.new("Black")
+			end
+		end
+	end
+	if bool == "White" then do
+			game.Workspace.WaterLevel.BrickColor = BrickColor.new("White")
+			game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("White")
+			local Children = game.Workspace.TsunamiWave:GetChildren()
+			for a = 1, #Children do
+				Children[a].BrickColor = BrickColor.new("White")
+			end
+		end
+	end
+	if bool == "Purple" then do
+			game.Workspace.WaterLevel.BrickColor = BrickColor.new("Bright violet")
+			game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("Bright violet")
+			local Children = game.Workspace.TsunamiWave:GetChildren()
+			for a = 1, #Children do
+				Children[a].BrickColor = BrickColor.new("Bright violet")
+			end
+		end
+	end
+	if bool == "Cyan" then do
+			game.Workspace.WaterLevel.BrickColor = BrickColor.new("Cyan")
+			game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("Cyan")
+			local Children = game.Workspace.TsunamiWave:GetChildren()
+			for a = 1, #Children do
+				Children[a].BrickColor = BrickColor.new("Cyan")
+			end
+		end
+	end
+     if bool == "Red" then do
+			game.Workspace.WaterLevel.BrickColor = BrickColor.new("Bright red")
+			game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("Bright red")
+			local Children = game.Workspace.TsunamiWave:GetChildren()
+			for a = 1, #Children do
+				Children[a].BrickColor = BrickColor.new("Bright red")
+			end
+		end
+	end
+    if bool == "Yellow" then do
+			game.Workspace.WaterLevel.BrickColor = BrickColor.new("Bright yellow")
+			game.Workspace.Structure.FloodLevel.BrickColor = BrickColor.new("Bright yellow")
+			local Children = game.Workspace.TsunamiWave:GetChildren()
+			for a = 1, #Children do
+				Children[a].BrickColor = BrickColor.new("Bright yellow")
+			end
+		end
+	end
+end)
