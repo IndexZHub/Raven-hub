@@ -3,7 +3,7 @@ if game.PlaceId == 13622985049 then
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/IndexZHub/Raven-hub/main/Scripts/rainbow%20friends%201%20lobby"), true))()
 end
 if game.PlaceId == 7991339063 then
-loadstring(game:HttpGet(("https://raw.githubusercontent.com/IndexZHub/Raven-hub/main/Scripts/rainbow%20friends%201%20lobby"), true))()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/IndexZHub/Raven-hub/main/Scripts/rainbow%20friends%202%20lobby"), true))()
 end
 if game.PlaceId == 8888615802 then
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/IndexZHub/Raven-hub/main/Scripts/rainbow%20friends%201%20game"), true))()
